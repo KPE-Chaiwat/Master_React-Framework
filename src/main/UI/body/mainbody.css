@@ -1,0 +1,42 @@
+.App-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.App-body {
+  display: flex;
+}
+.test-sidebar {
+  display: block flex;
+  background-color: aqua;
+  height: 100%;
+  width: 200px;
+}
+.App-sidebar {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 200px;
+  background-color: #444;
+  padding-top: 20px;
+}
+
+.App-sidebar a {
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.App-sidebar a:hover {
+  background-color: #555;
+}
+
+.App-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+}
